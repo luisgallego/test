@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'icomoon';
+  font-family: 'icomoon2';
   src:url('fonts2/icomoon.eot?-tn0vt8');
   src:url('fonts2/icomoon.eot?#iefix-tn0vt8') format('embedded-opentype'),
     url('fonts2/icomoon.ttf?-tn0vt8') format('truetype'),
@@ -8,9 +8,7 @@
   font-weight: normal;
   font-style: normal;
 }
-.nav-collapse.opened {
-  max-height: 9999px;
-}
+
 
 .nav-toggle {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -89,6 +87,6 @@
     }
     .nav-toggle:after{
       font-family: "icomoon2";
-      content: " \e600";
+      content: "\e600";
     }
 }
